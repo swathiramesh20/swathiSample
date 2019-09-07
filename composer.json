@@ -1,0 +1,26 @@
+{
+    "name": "swathi/sample",
+    "description": "this is a sample package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "swathi",
+            "email": "swathisrir@dckap.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Swathi\\Sample\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Swathi\\Sample\\SampleServiceProvider"
+            ]
+        }
+    }
+}
